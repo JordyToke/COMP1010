@@ -45,8 +45,8 @@ def analysis():
             p("Returned string analysis"),
             table(style="width:400px")(
                 tr(
-                    td(strong("Total length:")),
-                    td(strong("Length minus punctuation:")),
+                    td(strong("Total chars:")),
+                    td(strong("Chars minus punctuation:")),
                     td(strong("Words:"))
                 ),
                 tr(
@@ -57,7 +57,6 @@ def analysis():
             )
         )
     )
-
     return str(code)
 
 if __name__ == "__main__":
