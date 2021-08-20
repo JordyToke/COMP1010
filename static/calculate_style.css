@@ -1,0 +1,19 @@
+html {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    padding: 50;
+    line-height: 1.5;
+    font-size: 20px;
+    color: #929292;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #242424;
+}
+
+header h1 {
+    font-size: 80px;
+}
